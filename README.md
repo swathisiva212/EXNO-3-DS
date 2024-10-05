@@ -164,7 +164,9 @@ df["Highly Negative Skew_yeojohnson"],parameters=stats.yeojohnson(df["Highly Neg
 df.skew()
 ```
 
-![image](https://github.com/user-attachments/assets/7916609f-9538-4b20-a4cc-e0a7926ba819)
+![image](https://github.com/user-attachments/assets/844fc7e6-f5cc-4a7e-8889-af396e78bee5)
+
+
 
 ```
 from sklearn.preprocessing import QuantileTransformer
