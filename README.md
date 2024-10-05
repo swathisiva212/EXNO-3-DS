@@ -137,14 +137,19 @@ np.reciprocal(df["Moderate Positive Skew"])
 ```
 np.sqrt(df["Highly Positive Skew"])
 ```
+
+![image](https://github.com/user-attachments/assets/5cd7840f-f02f-4fd3-85d5-a53fe280deb8)
+
 ```
 np.square(df["Highly Positive Skew"])
 ```
+
+![image](https://github.com/user-attachments/assets/8fb8e132-6ed7-4b7a-8b40-ce0b2a17f8ab)
+
 ````
 df["Highly Positive Skew_boxcox"], parameters=stats.boxcox(df["Highly Positive Skew"])
 df
 ```
-
 ![image](https://github.com/user-attachments/assets/3c2b78b4-07b4-4762-9c80-9a3eb01a0dc1)
 
 ```
