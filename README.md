@@ -149,7 +149,9 @@ np.square(df["Highly Positive Skew"])
 df["Highly Positive Skew_boxcox"], parameters=stats.boxcox(df["Highly Positive Skew"])
 df
 ````
-![image](https://github.com/user-attachments/assets/3c2b78b4-07b4-4762-9c80-9a3eb01a0dc1)
+
+![image](https://github.com/user-attachments/assets/efac1018-7767-45c7-aab6-b3955c1cbebe)
+
 
 ````
 df.skew()
