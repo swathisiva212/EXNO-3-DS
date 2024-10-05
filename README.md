@@ -220,13 +220,15 @@ plt.show()
 dt=pd.read_csv("titanic_dataset.csv")
 dt
 ````
+
 ````
 from sklearn.preprocessing import QuantileTransformer
 qt=QuantileTransformer(output_distribution='normal',n_quantiles=891)
 dt["Age_1"]=qt.fit_transform(dt[["Age"]])
 sm.qqplot(dt['Age'],line='45') 
 plt.show()
-```
+````
+
 ![image](https://github.com/user-attachments/assets/c572a2fc-4005-4079-accf-de896f1520c7)
 
 ````
