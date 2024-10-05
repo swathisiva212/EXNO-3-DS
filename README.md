@@ -227,15 +227,12 @@ dt["Age_1"]=qt.fit_transform(dt[["Age"]])
 sm.qqplot(dt['Age'],line='45') 
 plt.show()
 ```
-
 ![image](https://github.com/user-attachments/assets/c572a2fc-4005-4079-accf-de896f1520c7)
 
-```
+````
 sm.qqplot(df["Highly Negative Skew_1"],line='45')
 plt.show()
-```
-
-
+````
 ![image](https://github.com/user-attachments/assets/4b17f763-9f2a-4fd5-9eb6-200ff946f654)
 
 
